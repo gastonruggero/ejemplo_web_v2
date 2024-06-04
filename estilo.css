@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(212, 141, 141);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px);
+}
+#titulo-principal{
+    grid-row: 1;
+    grid-column: 2;
+    margin-top:auto;
+    align-items: center;
+}
+#titulo-principal > h1 {
+    text-align: center;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#iframe-1{
+    min-height: 220px;
+}
+#imagen-1{
+    grid-column:1/4;
+    width: 100%;
+}
