@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Registro de usuarios</title>
+</head>
+
+<body>
+    <form action="usuarios.html" target="_self">
+        <div class="pregunta">
+            <label for="usuario-nombre">Nombre:</label>
+            <input type="text" name="nombre" id="usuario-nombre" placeholder="Nombre">
+        </div>
+        <div class="pregunta">
+            <label for="usuario-email">Email:</label>
+            <input type="email" name="email" id="usuario-email" placeholder="Email">
+        </div>
+        <div class="pregunta">
+            <label for="usuario-contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="usuario-contrasenia" placeholder="Contraseña">
+        </div>
+
+        <input onclick="main()" type="submit" value="enviar">
+        <script src="registrar.js"></script>
+    </form>
+</body>
+
+</html>
